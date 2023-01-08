@@ -22,4 +22,8 @@ app.use('/', Routes);
 
 app.get('/', (req, res)=> {
     res.send("Hello There - Obi_Wan")
-})
+});
+
+app.listen(PORT, () => {
+    console.log(`Port: ${PORT} is now active`)
+});
