@@ -18,8 +18,8 @@ mongoose.connection
 
 
 app.use(cors());
-app.use('/', Routes);
 
+//-------------------------------------------------
 app.get('/', (req, res)=> {
     res.send("Hello There - Obi_Wan")
 });
